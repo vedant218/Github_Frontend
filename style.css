@@ -1,0 +1,90 @@
+.navbrand{
+    height: 50%;
+    width: 50%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.Background{
+    background: url(simple-codelines.png),#2b3137;
+}
+.container-lg {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--bs-light);
+    border-radius: .3rem;  
+  }
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #28a745;
+    color:white;  
+}
+@media(max-width: 812px) { 
+    #temp { 
+      display: none; 
+    }   
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    } 
+    }
+ 
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.py-lg-10 {
+     padding-top: 96px  ;
+    padding-bottom : 96px;
+}
+
+.py-sm-8 {
+    padding-top: 96px ;
+    padding-bottom : 96px ;
+}
+
+@media (min-width: 544px){
+    .p-responsive {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
+@media (min-width: 768px)
+{
+.col-md-5 {
+    width: 41.66667%;
+}
+}
+@media (min-width: 812px){
+    .navbar{
+        padding-left: 10%;
+        padding-right: 10%;
+    } 
+    h1{
+        font-size: 72px;
+    }
+    p{
+        font-size: 18px;
+    }
+    #low{
+        display: none;
+    }
+
+}
+#low{
+    background-color: #28a745;
+}
+h1,p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
